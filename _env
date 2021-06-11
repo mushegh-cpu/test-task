@@ -1,0 +1,18 @@
+# Server port configuration:
+PORT=4000
+
+# Enviroment (choose between: "production" or "development"):
+ENVIROMENT=development
+
+# You can set a limit of users allowed to register. Set the value to 0 to not use the limit
+LIMIT_USERS_REGISTERED=0
+
+# Database format connection (choose between: "standard" or "DNSseedlist"):
+MONGO_FORMAT_CONNECTION=DNSseedlist
+
+# MongoDB string
+MONGO_STRING=mongodb+srv://nest:E23yxfdTLgvGAZlM@nest-m9qni.gcp.mongodb.net/test?retryWrites=true&w=majority
+
+# JSONWEBTOKEN:
+SECRET=yoursecret
+DURATION=2h
